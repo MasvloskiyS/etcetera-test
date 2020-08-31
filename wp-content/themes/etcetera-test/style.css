@@ -1,0 +1,117 @@
+/*
+Theme Name: Etcetera-Test
+Template: wp-bootstrap-starter
+
+*/
+
+/* импортируем стили родительской темы */
+@import url("../wp-bootstrap-starter/style.css");
+
+
+
+.real-estate-template #content.site-content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.page-template-page-front-page.filter-active #content.site-content {
+    padding-top: 0;
+}
+.page-template-page-front-page.filter-active .page-scroller {
+    display: none;
+}
+
+.page-template-page-front-page.filter-active #page-sub-header { 
+    padding-bottom: 90px;
+}
+
+.page-template-page-front-page.filter-active #page-sub-header {
+    margin-bottom: 50px;
+}
+.page-template-page-front-page.filter-active #filter {
+    margin-top: -100px;
+    margin-bottom: 60px;
+}
+h3.widget-title {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.page-template-page-front-page .uagb-post__text .uagb-post__title {
+    margin-bottom: 15px;
+    color: #3b3b3b;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+
+#real-estate__header {
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+#real-estate__header h1{
+    margin-top: 4rem
+ }
+#real-estate__header a.page-scroller{
+    margin-top: 0rem
+ }
+.overlay-white {
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.single-real-estate #info {
+    margin-top: 80px;
+}
+.responsive-slider-wrapper {
+    position: relative;
+}
+.responsive-slider-wrapper .next,
+.responsive-slider-wrapper .prev {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.responsive-slider-wrapper .next {
+    right: 0;
+}
+.responsive-slider-wrapper .prev {
+    left: 0;
+}
+.responsive-slider {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.responsive-slider .slick-slide {
+
+    margin: 0 10px;
+}
+.responsive-slider .slick-slide .container{
+    background-color: #EB6864;
+    color: #fff;
+}
+
+.responsive-slider .slick-slide .container .room .photo img {
+    object-fit: cover;
+    height: 100%;
+}
+.responsive-slider .slick-slide .container .room .photo,
+.responsive-slider .slick-slide .container .room  .room-info{ 
+
+    height: 160px;
+}
+.responsive-slider .slick-slide .container .room  {
+    margin-bottom: 0;
+}
+.responsive-slider .slick-list {
+    margin: 0 -10px;
+}

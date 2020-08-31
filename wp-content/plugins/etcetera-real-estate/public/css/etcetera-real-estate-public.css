@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.rooms__heading {
+  background-color: #563d7c;
+  color: #fff;
+  padding: 15px;
+}
+.room {
+  margin-bottom: 30px;
+}
+.room__info {
+  padding-top: 20px;
+}
+#response .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+#response .real-estate-object {
+    margin-bottom: 30px;
+    min-height: 386px;
+}
+
+#filter {
+  position: relative;
+  padding: 30px 23px 20px;
+  background: darkslategray;
+  border-radius: 10px;
+}
+
+#pagination {
+	background-color: darkslategray;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff
+}
+#pagination .current {
+	margin: 0 6px 0 6px
+}
+#pagination a{
+	margin: 0 6px 0 6px
+}
+#response-widget .col-lg-6 {
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
